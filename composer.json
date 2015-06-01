@@ -1,0 +1,21 @@
+{
+    "name": "fsbarretto/semaphore",
+    "type": "library",
+    "description": "SMS api client for Semaphore (semaphore.co)",
+    "keywords": ["semaphore", "sms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francis Alvin Barretto",
+            "email": "francis.alvin.barretto@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fsbarretto\\": "src/Fsbarretto"
+        }
+    }
+}
